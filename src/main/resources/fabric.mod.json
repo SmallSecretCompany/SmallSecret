@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "smallsecret",
+	"version": "${version}",
+	"name": "SmallSecret",
+	"description": "Some global mode",
+	"authors": [
+		"okonayakodji"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": "https://github.com/SmallSecretCompany/SmallSecret"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/smallsecret/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"smallsecret.SmallSecretMod"
+		],
+		"client": [
+			"smallsecret.SmallSecretModClient"
+		],
+		"fabric-datagen": [
+			"smallsecret.SmallSecretModDataGenerator"
+		]
+	},
+	"mixins": [
+		"smallsecret.mixins.json",
+		{
+			"config": "smallsecret.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
