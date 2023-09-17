@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "smallsecret:raw_obsidian_alloy_block"
+    }
+  ],
+  "result": {
+    "item": "smallsecret:raw_piece_of_obsidian_alloy",
+    "count": 9
+  }
+}

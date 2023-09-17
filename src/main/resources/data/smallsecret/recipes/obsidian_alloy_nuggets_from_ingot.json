@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "smallsecret:obsidian_alloy_ingot"
+    }
+  ],
+  "result": {
+    "item": "smallsecret:obsidian_alloy_nugget",
+    "count": 9
+  }
+}
